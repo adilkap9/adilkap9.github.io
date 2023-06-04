@@ -1,0 +1,39 @@
+{
+  "cards": [
+    {
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "title": "В чем дело?",
+      "text": "Дело в том, что, согласно законодательству Российской Федерации, иностранным агентам, зарегистрированным в России, необходимо предоставлять отчетность о своей деятельности в органы государственной власти."
+    },
+    {
+      "image": "path/to/image2.jpg",
+      "title": "Заголовок карточки 2",
+      "text": "Текст карточки 2"
+    },
+    {
+      "image": "path/to/image2.jpg",
+      "title": "Заголовок карточки 2",
+      "text": "Текст карточки 2"
+    },
+    {
+      "image": "path/to/image2.jpg",
+      "title": "Заголовок карточки 2",
+      "text": "Текст карточки 2"
+    },
+    {
+      "image": "path/to/image2.jpg",
+      "title": "Заголовок карточки 2",
+      "text": "Текст карточки 2"
+    },
+    {
+      "image": "path/to/image2.jpg",
+      "title": "Заголовок карточки 2",
+      "text": "Текст карточки 2"
+    },
+    {
+      "image": "path/to/image2.jpg",
+      "title": "Заголовок карточки 2",
+      "text": "Текст карточки 2"
+    }
+  ]
+}

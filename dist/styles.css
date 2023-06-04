@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(12, 2, 24, 0.94);
+    color: #fff;
+    padding: 10px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-weight: bold; /* Добавлено для установки жирного шрифта */
+    margin-top: 10px;
+}
+
+.card-content {
+    /* Существующий CSS-код */
+    font-weight: bold; /* Добавлено для установки жирного шрифта */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Добавлено для добавления тени */
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#modal-close {
+    position: absolute; /* Добавлено */
+    bottom: 10px; /* Добавлено */
+    left: 50%; /* Добавлено */
+    transform: translateX(-50%); /* Добавлено */
+    background-color: #ccc; /* Изменено на серый цвет для примера */
+    padding: 10px 20px; /* Изменено для увеличения размеров кнопки */
+    border-radius: 5px; /* Добавлено для скругления углов */
+    border: 1px solid #999; /* Добавлено для обводки */
+    cursor: pointer;
+}
+
+#modal-close:hover {
+    background-color: #999; /* Изменено для примера */
+    color: #fff; /* Изменено для примера */
+}
+
+
+.image-text {
+    background-image: url("https://images.unsplash.com/photo-1596618365205-d5a0e8ef6173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2056&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-text h2 {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
